@@ -1,4 +1,4 @@
-// Get all navigation links and sections
+
 const navLinks = document.querySelectorAll('nav a[data-section]');
 const sections = document.querySelectorAll('.section');
 
