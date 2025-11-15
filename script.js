@@ -2,7 +2,6 @@
 const navLinks = document.querySelectorAll('nav a[data-section]');
 const sections = document.querySelectorAll('.section');
 
-// Function to smoothly scroll to a section
 function scrollToSection(sectionId) {
     const targetSection = document.getElementById(sectionId);
     if (targetSection) {
